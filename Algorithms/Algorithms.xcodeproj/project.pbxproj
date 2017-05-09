@@ -15,6 +15,10 @@
 		94D7ACE51EC19C9C0082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACE41EC19C9C0082AA6E /* main.swift */; };
 		94D7ACF01EC1A1590082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACEF1EC1A1590082AA6E /* main.swift */; };
 		94D7AD031EC1B2B00082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD021EC1B2B00082AA6E /* main.swift */; };
+		94D7AD0B1EC1C5730082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD0A1EC1C5730082AA6E /* main.swift */; };
+		94D7AD161EC1C5E20082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD151EC1C5E20082AA6E /* main.swift */; };
+		94D7AD211EC1C6370082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD201EC1C6370082AA6E /* main.swift */; };
+		94D7AD2C1EC1C7580082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD2B1EC1C7580082AA6E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +94,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		94D7AD061EC1C5730082AA6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94D7AD111EC1C5E20082AA6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94D7AD1C1EC1C6370082AA6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94D7AD271EC1C7580082AA6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +149,14 @@
 		94D7ACEF1EC1A1590082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACFA1EC1B2900082AA6E /* WordBreak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordBreak; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7AD021EC1B2B00082AA6E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D7AD081EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Median of Two Sorted Arrays"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D7AD0A1EC1C5730082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D7AD131EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "215. Kth Largest Element in an Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D7AD151EC1C5E20082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D7AD1E1EC1C6370082AA6E /* 47. Permutations II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "47. Permutations II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D7AD201EC1C6370082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D7AD291EC1C7580082AA6E /* 567. Permutation in String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "567. Permutation in String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D7AD2B1EC1C7580082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +216,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94D7AD051EC1C5730082AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD101EC1C5E20082AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD1B1EC1C6370082AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD261EC1C7580082AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -182,6 +258,10 @@
 				94D7ACD81EC197800082AA6E /* 463. Island Perimeter */,
 				94D7ACE31EC19C9C0082AA6E /* 38. Count and Say */,
 				94D7ACEE1EC1A1590082AA6E /* 50. Pow(x, n) */,
+				94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
+				94D7AD141EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
+				94D7AD1F1EC1C6370082AA6E /* 47. Permutations II */,
+				94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +277,10 @@
 				94D7ACE21EC19C9C0082AA6E /* 38. Count and Say */,
 				94D7ACED1EC1A1590082AA6E /* 50. Pow(x, n) */,
 				94D7ACFA1EC1B2900082AA6E /* WordBreak */,
+				94D7AD081EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
+				94D7AD131EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
+				94D7AD1E1EC1C6370082AA6E /* 47. Permutations II */,
+				94D7AD291EC1C7580082AA6E /* 567. Permutation in String */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,6 +355,38 @@
 				94D7AD021EC1B2B00082AA6E /* main.swift */,
 			);
 			path = WordBreak;
+			sourceTree = "<group>";
+		};
+		94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				94D7AD0A1EC1C5730082AA6E /* main.swift */,
+			);
+			path = "4. Median of Two Sorted Arrays";
+			sourceTree = "<group>";
+		};
+		94D7AD141EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXGroup;
+			children = (
+				94D7AD151EC1C5E20082AA6E /* main.swift */,
+			);
+			path = "215. Kth Largest Element in an Array";
+			sourceTree = "<group>";
+		};
+		94D7AD1F1EC1C6370082AA6E /* 47. Permutations II */ = {
+			isa = PBXGroup;
+			children = (
+				94D7AD201EC1C6370082AA6E /* main.swift */,
+			);
+			path = "47. Permutations II";
+			sourceTree = "<group>";
+		};
+		94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */ = {
+			isa = PBXGroup;
+			children = (
+				94D7AD2B1EC1C7580082AA6E /* main.swift */,
+			);
+			path = "567. Permutation in String";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +528,74 @@
 			productReference = 94D7ACFA1EC1B2900082AA6E /* WordBreak */;
 			productType = "com.apple.product-type.tool";
 		};
+		94D7AD071EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D7AD0C1EC1C5730082AA6E /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */;
+			buildPhases = (
+				94D7AD041EC1C5730082AA6E /* Sources */,
+				94D7AD051EC1C5730082AA6E /* Frameworks */,
+				94D7AD061EC1C5730082AA6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4. Median of Two Sorted Arrays";
+			productName = "4. Median of Two Sorted Arrays";
+			productReference = 94D7AD081EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */;
+			productType = "com.apple.product-type.tool";
+		};
+		94D7AD121EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D7AD171EC1C5E20082AA6E /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */;
+			buildPhases = (
+				94D7AD0F1EC1C5E20082AA6E /* Sources */,
+				94D7AD101EC1C5E20082AA6E /* Frameworks */,
+				94D7AD111EC1C5E20082AA6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "215. Kth Largest Element in an Array";
+			productName = "215. Kth Largest Element in an Array";
+			productReference = 94D7AD131EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */;
+			productType = "com.apple.product-type.tool";
+		};
+		94D7AD1D1EC1C6370082AA6E /* 47. Permutations II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D7AD221EC1C6370082AA6E /* Build configuration list for PBXNativeTarget "47. Permutations II" */;
+			buildPhases = (
+				94D7AD1A1EC1C6370082AA6E /* Sources */,
+				94D7AD1B1EC1C6370082AA6E /* Frameworks */,
+				94D7AD1C1EC1C6370082AA6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "47. Permutations II";
+			productName = "47. Permutations II";
+			productReference = 94D7AD1E1EC1C6370082AA6E /* 47. Permutations II */;
+			productType = "com.apple.product-type.tool";
+		};
+		94D7AD281EC1C7580082AA6E /* 567. Permutation in String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D7AD2D1EC1C7580082AA6E /* Build configuration list for PBXNativeTarget "567. Permutation in String" */;
+			buildPhases = (
+				94D7AD251EC1C7580082AA6E /* Sources */,
+				94D7AD261EC1C7580082AA6E /* Frameworks */,
+				94D7AD271EC1C7580082AA6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "567. Permutation in String";
+			productName = "567. Permutation in String";
+			productReference = 94D7AD291EC1C7580082AA6E /* 567. Permutation in String */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -454,6 +638,22 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					94D7AD071EC1C5730082AA6E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94D7AD121EC1C5E20082AA6E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94D7AD1D1EC1C6370082AA6E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94D7AD281EC1C7580082AA6E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 94D7AC981EC196690082AA6E /* Build configuration list for PBXProject "Algorithms" */;
@@ -476,6 +676,10 @@
 				94D7ACE11EC19C9C0082AA6E /* 38. Count and Say */,
 				94D7ACEC1EC1A1590082AA6E /* 50. Pow(x, n) */,
 				94D7ACF91EC1B2900082AA6E /* WordBreak */,
+				94D7AD071EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
+				94D7AD121EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
+				94D7AD1D1EC1C6370082AA6E /* 47. Permutations II */,
+				94D7AD281EC1C7580082AA6E /* 567. Permutation in String */,
 			);
 		};
 /* End PBXProject section */
@@ -542,6 +746,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D7AD031EC1B2B00082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD041EC1C5730082AA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7AD0B1EC1C5730082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD0F1EC1C5E20082AA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7AD161EC1C5E20082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD1A1EC1C6370082AA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7AD211EC1C6370082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7AD251EC1C7580082AA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7AD2C1EC1C7580082AA6E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,6 +1002,70 @@
 			};
 			name = Release;
 		};
+		94D7AD0D1EC1C5730082AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94D7AD0E1EC1C5730082AA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94D7AD181EC1C5E20082AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94D7AD191EC1C5E20082AA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94D7AD231EC1C6370082AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94D7AD241EC1C6370082AA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94D7AD2E1EC1C7580082AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94D7AD2F1EC1C7580082AA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -840,6 +1140,38 @@
 			buildConfigurations = (
 				94D7ACFF1EC1B2900082AA6E /* Debug */,
 				94D7AD001EC1B2900082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D7AD0C1EC1C5730082AA6E /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D7AD0D1EC1C5730082AA6E /* Debug */,
+				94D7AD0E1EC1C5730082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D7AD171EC1C5E20082AA6E /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D7AD181EC1C5E20082AA6E /* Debug */,
+				94D7AD191EC1C5E20082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D7AD221EC1C6370082AA6E /* Build configuration list for PBXNativeTarget "47. Permutations II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D7AD231EC1C6370082AA6E /* Debug */,
+				94D7AD241EC1C6370082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D7AD2D1EC1C7580082AA6E /* Build configuration list for PBXNativeTarget "567. Permutation in String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D7AD2E1EC1C7580082AA6E /* Debug */,
+				94D7AD2F1EC1C7580082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
