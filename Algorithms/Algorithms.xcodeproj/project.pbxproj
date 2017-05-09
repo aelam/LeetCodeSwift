@@ -12,6 +12,7 @@
 		94D7ACC41EC197510082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACC31EC197510082AA6E /* main.swift */; };
 		94D7ACCF1EC197620082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACCE1EC197620082AA6E /* main.swift */; };
 		94D7ACDA1EC197800082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACD91EC197800082AA6E /* main.swift */; };
+		94D7ACE51EC19C9C0082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACE41EC19C9C0082AA6E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		94D7ACE01EC19C9C0082AA6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +83,8 @@
 		94D7ACCE1EC197620082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACD71EC197800082AA6E /* 463. Island Perimeter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "463. Island Perimeter"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7ACD91EC197800082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D7ACE21EC19C9C0082AA6E /* 38. Count and Say */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "38. Count and Say"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D7ACE41EC19C9C0082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94D7ACDF1EC19C9C0082AA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -122,6 +141,7 @@
 				94D7ACC21EC197510082AA6E /* 77. Combinations */,
 				94D7ACCD1EC197620082AA6E /* 282. Expression Add Operators */,
 				94D7ACD81EC197800082AA6E /* 463. Island Perimeter */,
+				94D7ACE31EC19C9C0082AA6E /* 38. Count and Say */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,6 +154,7 @@
 				94D7ACC11EC197510082AA6E /* 77. Combinations */,
 				94D7ACCC1EC197620082AA6E /* 282. Expression Add Operators */,
 				94D7ACD71EC197800082AA6E /* 463. Island Perimeter */,
+				94D7ACE21EC19C9C0082AA6E /* 38. Count and Say */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,6 +197,14 @@
 				94D7ACD91EC197800082AA6E /* main.swift */,
 			);
 			path = "463. Island Perimeter";
+			sourceTree = "<group>";
+		};
+		94D7ACE31EC19C9C0082AA6E /* 38. Count and Say */ = {
+			isa = PBXGroup;
+			children = (
+				94D7ACE41EC19C9C0082AA6E /* main.swift */,
+			);
+			path = "38. Count and Say";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +295,23 @@
 			productReference = 94D7ACD71EC197800082AA6E /* 463. Island Perimeter */;
 			productType = "com.apple.product-type.tool";
 		};
+		94D7ACE11EC19C9C0082AA6E /* 38. Count and Say */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D7ACE61EC19C9C0082AA6E /* Build configuration list for PBXNativeTarget "38. Count and Say" */;
+			buildPhases = (
+				94D7ACDE1EC19C9C0082AA6E /* Sources */,
+				94D7ACDF1EC19C9C0082AA6E /* Frameworks */,
+				94D7ACE01EC19C9C0082AA6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "38. Count and Say";
+			productName = "38. Count and Say";
+			productReference = 94D7ACE21EC19C9C0082AA6E /* 38. Count and Say */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -296,6 +342,10 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					94D7ACE11EC19C9C0082AA6E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 94D7AC981EC196690082AA6E /* Build configuration list for PBXProject "Algorithms" */;
@@ -315,6 +365,7 @@
 				94D7ACC01EC197510082AA6E /* 77. Combinations */,
 				94D7ACCB1EC197620082AA6E /* 282. Expression Add Operators */,
 				94D7ACD61EC197800082AA6E /* 463. Island Perimeter */,
+				94D7ACE11EC19C9C0082AA6E /* 38. Count and Say */,
 			);
 		};
 /* End PBXProject section */
@@ -357,6 +408,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D7ACDA1EC197800082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D7ACDE1EC19C9C0082AA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D7ACE51EC19C9C0082AA6E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +592,22 @@
 			};
 			name = Release;
 		};
+		94D7ACE71EC19C9C0082AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94D7ACE81EC19C9C0082AA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,6 +658,14 @@
 			buildConfigurations = (
 				94D7ACDC1EC197800082AA6E /* Debug */,
 				94D7ACDD1EC197800082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D7ACE61EC19C9C0082AA6E /* Build configuration list for PBXNativeTarget "38. Count and Say" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D7ACE71EC19C9C0082AA6E /* Debug */,
+				94D7ACE81EC19C9C0082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
