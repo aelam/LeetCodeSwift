@@ -19,6 +19,8 @@
 		94D7AD161EC1C5E20082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD151EC1C5E20082AA6E /* main.swift */; };
 		94D7AD211EC1C6370082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD201EC1C6370082AA6E /* main.swift */; };
 		94D7AD2C1EC1C7580082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7AD2B1EC1C7580082AA6E /* main.swift */; };
+		94DD91721EC2A64B004351A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD91711EC2A64B004351A5 /* main.swift */; };
+		94DD91811EC2DD2D004351A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD91801EC2DD2D004351A5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -130,6 +132,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		94DD916D1EC2A64B004351A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94DD917C1EC2DD2D004351A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -157,6 +177,10 @@
 		94D7AD201EC1C6370082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7AD291EC1C7580082AA6E /* 567. Permutation in String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "567. Permutation in String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7AD2B1EC1C7580082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94DD916F1EC2A64B004351A5 /* 540. Single Element in a Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "540. Single Element in a Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD91711EC2A64B004351A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94DD917E1EC2DD2D004351A5 /* 14. Longest Common Prefix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14. Longest Common Prefix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD91801EC2DD2D004351A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +268,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94DD916C1EC2A64B004351A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD917B1EC2DD2D004351A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -262,6 +300,8 @@
 				94D7AD141EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
 				94D7AD1F1EC1C6370082AA6E /* 47. Permutations II */,
 				94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */,
+				94DD91701EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
+				94DD917F1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -281,6 +321,8 @@
 				94D7AD131EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
 				94D7AD1E1EC1C6370082AA6E /* 47. Permutations II */,
 				94D7AD291EC1C7580082AA6E /* 567. Permutation in String */,
+				94DD916F1EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
+				94DD917E1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -387,6 +429,22 @@
 				94D7AD2B1EC1C7580082AA6E /* main.swift */,
 			);
 			path = "567. Permutation in String";
+			sourceTree = "<group>";
+		};
+		94DD91701EC2A64B004351A5 /* 540. Single Element in a Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				94DD91711EC2A64B004351A5 /* main.swift */,
+			);
+			path = "540. Single Element in a Sorted Array";
+			sourceTree = "<group>";
+		};
+		94DD917F1EC2DD2D004351A5 /* 14. Longest Common Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				94DD91801EC2DD2D004351A5 /* main.swift */,
+			);
+			path = "14. Longest Common Prefix";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,6 +654,40 @@
 			productReference = 94D7AD291EC1C7580082AA6E /* 567. Permutation in String */;
 			productType = "com.apple.product-type.tool";
 		};
+		94DD916E1EC2A64B004351A5 /* 540. Single Element in a Sorted Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD91751EC2A64B004351A5 /* Build configuration list for PBXNativeTarget "540. Single Element in a Sorted Array" */;
+			buildPhases = (
+				94DD916B1EC2A64B004351A5 /* Sources */,
+				94DD916C1EC2A64B004351A5 /* Frameworks */,
+				94DD916D1EC2A64B004351A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "540. Single Element in a Sorted Array";
+			productName = "540. Single Element in a Sorted Array";
+			productReference = 94DD916F1EC2A64B004351A5 /* 540. Single Element in a Sorted Array */;
+			productType = "com.apple.product-type.tool";
+		};
+		94DD917D1EC2DD2D004351A5 /* 14. Longest Common Prefix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD91821EC2DD2D004351A5 /* Build configuration list for PBXNativeTarget "14. Longest Common Prefix" */;
+			buildPhases = (
+				94DD917A1EC2DD2D004351A5 /* Sources */,
+				94DD917B1EC2DD2D004351A5 /* Frameworks */,
+				94DD917C1EC2DD2D004351A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14. Longest Common Prefix";
+			productName = "14. Longest Common Prefix";
+			productReference = 94DD917E1EC2DD2D004351A5 /* 14. Longest Common Prefix */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -654,6 +746,14 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					94DD916E1EC2A64B004351A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94DD917D1EC2DD2D004351A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 94D7AC981EC196690082AA6E /* Build configuration list for PBXProject "Algorithms" */;
@@ -680,6 +780,8 @@
 				94D7AD121EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
 				94D7AD1D1EC1C6370082AA6E /* 47. Permutations II */,
 				94D7AD281EC1C7580082AA6E /* 567. Permutation in String */,
+				94DD916E1EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
+				94DD917D1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
 			);
 		};
 /* End PBXProject section */
@@ -778,6 +880,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D7AD2C1EC1C7580082AA6E /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD916B1EC2A64B004351A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD91721EC2A64B004351A5 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DD917A1EC2DD2D004351A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD91811EC2DD2D004351A5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,6 +1184,38 @@
 			};
 			name = Release;
 		};
+		94DD91731EC2A64B004351A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94DD91741EC2A64B004351A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94DD91831EC2DD2D004351A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94DD91841EC2DD2D004351A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1094,6 +1244,7 @@
 				94D7ACBC1EC196F70082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACC51EC197510082AA6E /* Build configuration list for PBXNativeTarget "77. Combinations" */ = {
 			isa = XCConfigurationList;
@@ -1102,6 +1253,7 @@
 				94D7ACC71EC197510082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACD01EC197620082AA6E /* Build configuration list for PBXNativeTarget "282. Expression Add Operators" */ = {
 			isa = XCConfigurationList;
@@ -1110,6 +1262,7 @@
 				94D7ACD21EC197620082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACDB1EC197800082AA6E /* Build configuration list for PBXNativeTarget "463. Island Perimeter" */ = {
 			isa = XCConfigurationList;
@@ -1118,6 +1271,7 @@
 				94D7ACDD1EC197800082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACE61EC19C9C0082AA6E /* Build configuration list for PBXNativeTarget "38. Count and Say" */ = {
 			isa = XCConfigurationList;
@@ -1126,6 +1280,7 @@
 				94D7ACE81EC19C9C0082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACF11EC1A1590082AA6E /* Build configuration list for PBXNativeTarget "50. Pow(x, n)" */ = {
 			isa = XCConfigurationList;
@@ -1134,6 +1289,7 @@
 				94D7ACF31EC1A1590082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7ACFE1EC1B2900082AA6E /* Build configuration list for PBXNativeTarget "WordBreak" */ = {
 			isa = XCConfigurationList;
@@ -1142,6 +1298,7 @@
 				94D7AD001EC1B2900082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7AD0C1EC1C5730082AA6E /* Build configuration list for PBXNativeTarget "4. Median of Two Sorted Arrays" */ = {
 			isa = XCConfigurationList;
@@ -1150,6 +1307,7 @@
 				94D7AD0E1EC1C5730082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7AD171EC1C5E20082AA6E /* Build configuration list for PBXNativeTarget "215. Kth Largest Element in an Array" */ = {
 			isa = XCConfigurationList;
@@ -1158,6 +1316,7 @@
 				94D7AD191EC1C5E20082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7AD221EC1C6370082AA6E /* Build configuration list for PBXNativeTarget "47. Permutations II" */ = {
 			isa = XCConfigurationList;
@@ -1166,12 +1325,30 @@
 				94D7AD241EC1C6370082AA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7AD2D1EC1C7580082AA6E /* Build configuration list for PBXNativeTarget "567. Permutation in String" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94D7AD2E1EC1C7580082AA6E /* Debug */,
 				94D7AD2F1EC1C7580082AA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DD91751EC2A64B004351A5 /* Build configuration list for PBXNativeTarget "540. Single Element in a Sorted Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD91731EC2A64B004351A5 /* Debug */,
+				94DD91741EC2A64B004351A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94DD91821EC2DD2D004351A5 /* Build configuration list for PBXNativeTarget "14. Longest Common Prefix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD91831EC2DD2D004351A5 /* Debug */,
+				94DD91841EC2DD2D004351A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
