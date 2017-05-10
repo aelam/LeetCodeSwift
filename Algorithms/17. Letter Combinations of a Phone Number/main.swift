@@ -24,34 +24,34 @@ class Solution {
         var results = [String]()
         for i in 0..<digits.characters.count {
             let cc = digits[digits.index(digits.startIndex, offsetBy: i)]
-            results = combinations(results, Int(String(cc))!)
+            combinations(&results, Int(String(cc))!)
         }
         
         return results
     }
     
-    func combinations(_ results: [String], _ digit: Int) -> [String] {
+    func combinations(_ results: inout [String], _ digit: Int) {
         let candidates = Solution.mapping[digit]
         
         if results.isEmpty {
-            return candidates
+            results.append(contentsOf: candidates)
+            return
         }
         
-        var newResults = [String]()
-        for r in results {
-
+        let count = results.count
+        for i in 0..<count {
             for cc in candidates {
-                var rr = r
+                var rr = results[i]
                 rr.append(cc)
-                newResults.append(rr)
+                results.append(rr)
             }
         }
-
-        return newResults
+        
+        results.removeFirst(count)
     }
     
 }
 
 let solution = Solution()
-print(solution.letterCombinations("2"))
+print(solution.letterCombinations("22344"))
 
