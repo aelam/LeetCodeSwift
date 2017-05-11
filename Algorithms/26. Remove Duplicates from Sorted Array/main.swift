@@ -26,20 +26,16 @@ class Solution {
         if nums.count <= 1 {
             return nums.count
         }
-        
-        var index = nums.count - 1
-        while index >= 1 {
-            while index >= 1 && nums[index] == nums[index-1] {
-                nums.remove(at: index)
-                index -= 1
+
+        var pivot = 0
+        for index in 1..<nums.count {
+            if nums[index] > nums[pivot] {
+                pivot += 1
+                nums[pivot] = nums[index]
             }
-            if index >= nums.count {
-                break
-            }
-            index -= 1
         }
-    
-        return nums.count
+        
+        return pivot + 1
     }
 }
 
