@@ -14,6 +14,7 @@
 		943649771EC44D770047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649761EC44D770047E189 /* main.swift */; };
 		943649821EC454680047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649811EC454680047E189 /* main.swift */; };
 		9478125B1EC4B1B300690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478125A1EC4B1B300690484 /* main.swift */; };
+		947812661EC4B94C00690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947812651EC4B94C00690484 /* main.swift */; };
 		94835DD41EC4A4810036198A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835DD31EC4A4810036198A /* main.swift */; };
 		94D7ACAE1EC196830082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACAD1EC196830082AA6E /* main.swift */; };
 		94D7ACB91EC196F70082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACB81EC196F70082AA6E /* main.swift */; };
@@ -89,6 +90,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		947812561EC4B1B300690484 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		947812611EC4B94C00690484 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -267,6 +277,8 @@
 		943649811EC454680047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812581EC4B1B300690484 /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9478125A1EC4B1B300690484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		947812631EC4B94C00690484 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947812651EC4B94C00690484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94835DD11EC4A4810036198A /* 11. Container With Most Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. Container With Most Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94835DD31EC4A4810036198A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACAB1EC196830082AA6E /* 20. Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20. Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,6 +359,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		947812551EC4B1B300690484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947812601EC4B94C00690484 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,6 +550,14 @@
 			path = "15. 3Sum";
 			sourceTree = "<group>";
 		};
+		947812641EC4B94C00690484 /* 1. Two Sum */ = {
+			isa = PBXGroup;
+			children = (
+				947812651EC4B94C00690484 /* main.swift */,
+			);
+			path = "1. Two Sum";
+			sourceTree = "<group>";
+		};
 		94835DD21EC4A4810036198A /* 11. Container With Most Water */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +569,7 @@
 		94D7AC941EC196690082AA6E = {
 			isa = PBXGroup;
 			children = (
+				947812641EC4B94C00690484 /* 1. Two Sum */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
 				94835DD21EC4A4810036198A /* 11. Container With Most Water */,
@@ -597,6 +625,7 @@
 				9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */,
 				94835DD11EC4A4810036198A /* 11. Container With Most Water */,
 				947812581EC4B1B300690484 /* 15. 3Sum */,
+				947812631EC4B94C00690484 /* 1. Two Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -857,6 +886,23 @@
 			name = "15. 3Sum";
 			productName = "15. 3Sum";
 			productReference = 947812581EC4B1B300690484 /* 15. 3Sum */;
+			productType = "com.apple.product-type.tool";
+		};
+		947812621EC4B94C00690484 /* 1. Two Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947812671EC4B94C00690484 /* Build configuration list for PBXNativeTarget "1. Two Sum" */;
+			buildPhases = (
+				9478125F1EC4B94C00690484 /* Sources */,
+				947812601EC4B94C00690484 /* Frameworks */,
+				947812611EC4B94C00690484 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1. Two Sum";
+			productName = "1. Two Sum";
+			productReference = 947812631EC4B94C00690484 /* 1. Two Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 		94835DD01EC4A4810036198A /* 11. Container With Most Water */ = {
@@ -1187,6 +1233,11 @@
 						DevelopmentTeam = 2J9L4D6D44;
 						ProvisioningStyle = Automatic;
 					};
+					947812621EC4B94C00690484 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2J9L4D6D44;
+						ProvisioningStyle = Automatic;
+					};
 					94835DD01EC4A4810036198A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2J9L4D6D44;
@@ -1295,6 +1346,7 @@
 				94D7ACF91EC1B2900082AA6E /* WordBreak */,
 				943649681EC449510047E189 /* 448. Find All Numbers Disappeared in an Array */,
 				947812571EC4B1B300690484 /* 15. 3Sum */,
+				947812621EC4B94C00690484 /* 1. Two Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -1353,6 +1405,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9478125B1EC4B1B300690484 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9478125F1EC4B94C00690484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947812661EC4B94C00690484 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1601,6 +1661,24 @@
 			name = Debug;
 		};
 		9478125D1EC4B1B300690484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J9L4D6D44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		947812681EC4B94C00690484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J9L4D6D44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		947812691EC4B94C00690484 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2J9L4D6D44;
@@ -2042,6 +2120,14 @@
 			buildConfigurations = (
 				9478125C1EC4B1B300690484 /* Debug */,
 				9478125D1EC4B1B300690484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		947812671EC4B94C00690484 /* Build configuration list for PBXNativeTarget "1. Two Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947812681EC4B94C00690484 /* Debug */,
+				947812691EC4B94C00690484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
