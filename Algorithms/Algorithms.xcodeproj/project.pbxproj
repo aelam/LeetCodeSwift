@@ -12,6 +12,7 @@
 		943649611EC446000047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649601EC446000047E189 /* main.swift */; };
 		9436496C1EC449510047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436496B1EC449510047E189 /* main.swift */; };
 		943649771EC44D770047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649761EC44D770047E189 /* main.swift */; };
+		943649821EC454680047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649811EC454680047E189 /* main.swift */; };
 		94D7ACAE1EC196830082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACAD1EC196830082AA6E /* main.swift */; };
 		94D7ACB91EC196F70082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACB81EC196F70082AA6E /* main.swift */; };
 		94D7ACC41EC197510082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACC31EC197510082AA6E /* main.swift */; };
@@ -68,6 +69,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		943649721EC44D770047E189 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9436497D1EC454680047E189 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -233,6 +243,8 @@
 		9436496B1EC449510047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		943649741EC44D770047E189 /* 80. Remove Duplicates from Sorted Array II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "80. Remove Duplicates from Sorted Array II"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943649761EC44D770047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943649811EC454680047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACAB1EC196830082AA6E /* 20. Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20. Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7ACAD1EC196830082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACB61EC196F70082AA6E /* 69. Sqrt(x) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "69. Sqrt(x)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +309,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		943649711EC44D770047E189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9436497C1EC454680047E189 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,13 +477,23 @@
 			path = "80. Remove Duplicates from Sorted Array II";
 			sourceTree = "<group>";
 		};
+		943649801EC454680047E189 /* 26. Remove Duplicates from Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				943649811EC454680047E189 /* main.swift */,
+			);
+			path = "26. Remove Duplicates from Sorted Array";
+			sourceTree = "<group>";
+		};
 		94D7AC941EC196690082AA6E = {
 			isa = PBXGroup;
 			children = (
+				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
 				94DD917F1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
 				94DD919B1EC31C38004351A5 /* 17. Letter Combinations of a Phone Number */,
 				94D7ACAC1EC196830082AA6E /* 20. Valid Parentheses */,
+				943649801EC454680047E189 /* 26. Remove Duplicates from Sorted Array */,
 				94DD918A1EC2F086004351A5 /* 31. Next Permutation */,
 				94D7ACE31EC19C9C0082AA6E /* 38. Count and Say */,
 				9436493D1EC3F4B90047E189 /* 39. Combination Sum */,
@@ -482,7 +511,6 @@
 				94DD91701EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
 				94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */,
 				94D7ACF51EC1B27D0082AA6E /* Extra */,
-				94D7AC9E1EC196690082AA6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -510,6 +538,7 @@
 				9436495E1EC446000047E189 /* 442. Find All Duplicates in an Array */,
 				943649691EC449510047E189 /* 448. Find All Numbers Disappeared in an Array */,
 				943649741EC44D770047E189 /* 80. Remove Duplicates from Sorted Array II */,
+				9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -736,6 +765,23 @@
 			name = "80. Remove Duplicates from Sorted Array II";
 			productName = "80. Remove Duplicates from Sorted Array II";
 			productReference = 943649741EC44D770047E189 /* 80. Remove Duplicates from Sorted Array II */;
+			productType = "com.apple.product-type.tool";
+		};
+		9436497E1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943649831EC454680047E189 /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */;
+			buildPhases = (
+				9436497B1EC454680047E189 /* Sources */,
+				9436497C1EC454680047E189 /* Frameworks */,
+				9436497D1EC454680047E189 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "26. Remove Duplicates from Sorted Array";
+			productName = "26. Remove Duplicates from Sorted Array";
+			productReference = 9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */;
 			productType = "com.apple.product-type.tool";
 		};
 		94D7ACAA1EC196830082AA6E /* 20. Valid Parentheses */ = {
@@ -1040,6 +1086,10 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					9436497E1EC454680047E189 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					94D7ACAA1EC196830082AA6E = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -1123,6 +1173,7 @@
 				94DD917D1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
 				94DD91991EC31C37004351A5 /* 17. Letter Combinations of a Phone Number */,
 				94D7ACAA1EC196830082AA6E /* 20. Valid Parentheses */,
+				9436497E1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */,
 				94DD91881EC2F086004351A5 /* 31. Next Permutation */,
 				94D7ACE11EC19C9C0082AA6E /* 38. Count and Say */,
 				9436493B1EC3F4B90047E189 /* 39. Combination Sum */,
@@ -1131,6 +1182,7 @@
 				94D7ACB51EC196F70082AA6E /* 69. Sqrt(x) */,
 				94D7ACC01EC197510082AA6E /* 77. Combinations */,
 				943649461EC415030047E189 /* 78. Subsets */,
+				943649731EC44D770047E189 /* 80. Remove Duplicates from Sorted Array II */,
 				94D7AD121EC1C5E20082AA6E /* 215. Kth Largest Element in an Array */,
 				94D7ACCB1EC197620082AA6E /* 282. Expression Add Operators */,
 				9436495D1EC446000047E189 /* 442. Find All Duplicates in an Array */,
@@ -1139,7 +1191,6 @@
 				94D7AD281EC1C7580082AA6E /* 567. Permutation in String */,
 				94D7ACF91EC1B2900082AA6E /* WordBreak */,
 				943649681EC449510047E189 /* 448. Find All Numbers Disappeared in an Array */,
-				943649731EC44D770047E189 /* 80. Remove Duplicates from Sorted Array II */,
 			);
 		};
 /* End PBXProject section */
@@ -1182,6 +1233,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				943649771EC44D770047E189 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9436497B1EC454680047E189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943649821EC454680047E189 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1389,6 +1448,22 @@
 			name = Debug;
 		};
 		9436497A1EC44D770047E189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		943649841EC454680047E189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		943649851EC454680047E189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1790,6 +1865,14 @@
 			buildConfigurations = (
 				943649791EC44D770047E189 /* Debug */,
 				9436497A1EC44D770047E189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943649831EC454680047E189 /* Build configuration list for PBXNativeTarget "26. Remove Duplicates from Sorted Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943649841EC454680047E189 /* Debug */,
+				943649851EC454680047E189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
