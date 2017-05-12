@@ -17,11 +17,12 @@ class Solution {
     
     
     func findKthInSortedArrays(_ nums1: [Int], _ nums2: [Int], _ k: Int) -> Double {
-        let n = nums1.count
-        let m = nums2.count
-        
-        let count = m + n
-        let mid = (count - 1) / 2
+//        let n = nums1.count
+//        let m = nums2.count
+//        
+//        let count = m + n
+//        let mid = (count - 1) / 2
+        return 0
         
     }
 }

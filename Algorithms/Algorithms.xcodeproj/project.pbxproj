@@ -13,6 +13,7 @@
 		9436496C1EC449510047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436496B1EC449510047E189 /* main.swift */; };
 		943649771EC44D770047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649761EC44D770047E189 /* main.swift */; };
 		943649821EC454680047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649811EC454680047E189 /* main.swift */; };
+		94369D3A1EC6096200028DBF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94369D391EC6096200028DBF /* main.swift */; };
 		9478125B1EC4B1B300690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478125A1EC4B1B300690484 /* main.swift */; };
 		947812661EC4B94C00690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947812651EC4B94C00690484 /* main.swift */; };
 		94835DD41EC4A4810036198A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835DD31EC4A4810036198A /* main.swift */; };
@@ -85,6 +86,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9436497D1EC454680047E189 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94369D351EC6096200028DBF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -315,6 +325,8 @@
 		943649761EC44D770047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943649811EC454680047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94369D391EC6096200028DBF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812581EC4B1B300690484 /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9478125A1EC4B1B300690484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812631EC4B94C00690484 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,6 +412,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9436497C1EC454680047E189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94369D341EC6096200028DBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,6 +637,14 @@
 			path = "26. Remove Duplicates from Sorted Array";
 			sourceTree = "<group>";
 		};
+		94369D381EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				94369D391EC6096200028DBF /* main.swift */,
+			);
+			path = "21. Merge Two Sorted Lists";
+			sourceTree = "<group>";
+		};
 		947812591EC4B1B300690484 /* 15. 3Sum */ = {
 			isa = PBXGroup;
 			children = (
@@ -682,6 +709,7 @@
 				94B4D89C1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A71EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B21EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
+				94369D381EC6096200028DBF /* 21. Merge Two Sorted Lists */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
 				94835DD21EC4A4810036198A /* 11. Container With Most Water */,
@@ -742,6 +770,7 @@
 				94B4D89B1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A61EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B11EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
+				94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -985,6 +1014,23 @@
 			name = "26. Remove Duplicates from Sorted Array";
 			productName = "26. Remove Duplicates from Sorted Array";
 			productReference = 9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */;
+			productType = "com.apple.product-type.tool";
+		};
+		94369D361EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94369D3D1EC6096200028DBF /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */;
+			buildPhases = (
+				94369D331EC6096200028DBF /* Sources */,
+				94369D341EC6096200028DBF /* Frameworks */,
+				94369D351EC6096200028DBF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21. Merge Two Sorted Lists";
+			productName = "21. Merge Two Sorted Lists";
+			productReference = 94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */;
 			productType = "com.apple.product-type.tool";
 		};
 		947812571EC4B1B300690484 /* 15. 3Sum */ = {
@@ -1412,6 +1458,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					94369D361EC6096200028DBF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2J9L4D6D44;
+						ProvisioningStyle = Automatic;
+					};
 					947812571EC4B1B300690484 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 2J9L4D6D44;
@@ -1551,6 +1602,7 @@
 				94B4D89A1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A51EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B01EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
+				94369D361EC6096200028DBF /* 21. Merge Two Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -1601,6 +1653,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				943649821EC454680047E189 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94369D331EC6096200028DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94369D3A1EC6096200028DBF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1882,6 +1942,24 @@
 		943649851EC454680047E189 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94369D3B1EC6096200028DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J9L4D6D44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94369D3C1EC6096200028DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2J9L4D6D44;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2415,6 +2493,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		94369D3D1EC6096200028DBF /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94369D3B1EC6096200028DBF /* Debug */,
+				94369D3C1EC6096200028DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9478125E1EC4B1B300690484 /* Build configuration list for PBXNativeTarget "15. 3Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2476,6 +2562,7 @@
 				94B4D8B61EC5BE1E00E9DCD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94D7AC981EC196690082AA6E /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
