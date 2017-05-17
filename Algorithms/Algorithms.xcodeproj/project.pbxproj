@@ -13,7 +13,8 @@
 		9436496C1EC449510047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436496B1EC449510047E189 /* main.swift */; };
 		943649771EC44D770047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649761EC44D770047E189 /* main.swift */; };
 		943649821EC454680047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649811EC454680047E189 /* main.swift */; };
-		94369D3A1EC6096200028DBF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94369D391EC6096200028DBF /* main.swift */; };
+		944664341ECC592100F2CBBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944664331ECC592100F2CBBA /* main.swift */; };
+		9459FC551ECBDF6900919DF5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459FC541ECBDF6900919DF5 /* main.swift */; };
 		9478125B1EC4B1B300690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478125A1EC4B1B300690484 /* main.swift */; };
 		947812661EC4B94C00690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947812651EC4B94C00690484 /* main.swift */; };
 		94835DD41EC4A4810036198A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835DD31EC4A4810036198A /* main.swift */; };
@@ -21,6 +22,7 @@
 		94B4D89E1EC5586200E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D89D1EC5586200E9DCD3 /* main.swift */; };
 		94B4D8A91EC59A2200E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D8A81EC59A2200E9DCD3 /* main.swift */; };
 		94B4D8B41EC5BE1E00E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D8B31EC5BE1E00E9DCD3 /* main.swift */; };
+		94CFE3781ECAA1C60085DB72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFE3771ECAA1C60085DB72 /* main.swift */; };
 		94D7ACAE1EC196830082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACAD1EC196830082AA6E /* main.swift */; };
 		94D7ACB91EC196F70082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACB81EC196F70082AA6E /* main.swift */; };
 		94D7ACC41EC197510082AA6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D7ACC31EC197510082AA6E /* main.swift */; };
@@ -94,7 +96,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		94369D351EC6096200028DBF /* CopyFiles */ = {
+		9446642F1ECC592100F2CBBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9459FC501ECBDF6900919DF5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -158,6 +169,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		94B4D8AF1EC5BE1D00E9DCD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94CFE3731ECAA1C60085DB72 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -325,8 +345,10 @@
 		943649761EC44D770047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "26. Remove Duplicates from Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		943649811EC454680047E189 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94369D391EC6096200028DBF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		944664311ECC592100F2CBBA /* 21. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944664331ECC592100F2CBBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9459FC521ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "345. Reverse Vowels of a String"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9459FC541ECBDF6900919DF5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812581EC4B1B300690484 /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9478125A1EC4B1B300690484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812631EC4B94C00690484 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,6 +363,8 @@
 		94B4D8A81EC59A2200E9DCD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94B4D8B11EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "459. Repeated Substring Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B4D8B31EC5BE1E00E9DCD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94CFE3751ECAA1C60085DB72 /* 456. 132 Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "456. 132 Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CFE3771ECAA1C60085DB72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACAB1EC196830082AA6E /* 20. Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20. Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D7ACAD1EC196830082AA6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D7ACB61EC196F70082AA6E /* 69. Sqrt(x) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "69. Sqrt(x)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,7 +442,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94369D341EC6096200028DBF /* Frameworks */ = {
+		9446642E1ECC592100F2CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9459FC4F1ECBDF6900919DF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,6 +499,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		94B4D8AE1EC5BE1D00E9DCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFE3721ECAA1C60085DB72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -637,12 +675,20 @@
 			path = "26. Remove Duplicates from Sorted Array";
 			sourceTree = "<group>";
 		};
-		94369D381EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {
+		944664321ECC592100F2CBBA /* 21. Merge Two Sorted Lists */ = {
 			isa = PBXGroup;
 			children = (
-				94369D391EC6096200028DBF /* main.swift */,
+				944664331ECC592100F2CBBA /* main.swift */,
 			);
 			path = "21. Merge Two Sorted Lists";
+			sourceTree = "<group>";
+		};
+		9459FC531ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {
+			isa = PBXGroup;
+			children = (
+				9459FC541ECBDF6900919DF5 /* main.swift */,
+			);
+			path = "345. Reverse Vowels of a String";
 			sourceTree = "<group>";
 		};
 		947812591EC4B1B300690484 /* 15. 3Sum */ = {
@@ -701,6 +747,14 @@
 			path = "459. Repeated Substring Pattern";
 			sourceTree = "<group>";
 		};
+		94CFE3761ECAA1C60085DB72 /* 456. 132 Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				94CFE3771ECAA1C60085DB72 /* main.swift */,
+			);
+			path = "456. 132 Pattern";
+			sourceTree = "<group>";
+		};
 		94D7AC941EC196690082AA6E = {
 			isa = PBXGroup;
 			children = (
@@ -709,8 +763,9 @@
 				94B4D89C1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A71EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B21EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
-				94369D381EC6096200028DBF /* 21. Merge Two Sorted Lists */,
-				94D7AC9E1EC196690082AA6E /* Products */,
+				94CFE3761ECAA1C60085DB72 /* 456. 132 Pattern */,
+				9459FC531ECBDF6900919DF5 /* 345. Reverse Vowels of a String */,
+				944664321ECC592100F2CBBA /* 21. Merge Two Sorted Lists */,
 				94D7AD091EC1C5730082AA6E /* 4. Median of Two Sorted Arrays */,
 				94835DD21EC4A4810036198A /* 11. Container With Most Water */,
 				94DD917F1EC2DD2D004351A5 /* 14. Longest Common Prefix */,
@@ -734,6 +789,7 @@
 				94D7ACD81EC197800082AA6E /* 463. Island Perimeter */,
 				94DD91701EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
 				94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */,
+				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7ACF51EC1B27D0082AA6E /* Extra */,
 			);
 			sourceTree = "<group>";
@@ -770,7 +826,9 @@
 				94B4D89B1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A61EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B11EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
-				94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */,
+				94CFE3751ECAA1C60085DB72 /* 456. 132 Pattern */,
+				9459FC521ECBDF6900919DF5 /* 345. Reverse Vowels of a String */,
+				944664311ECC592100F2CBBA /* 21. Merge Two Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1016,13 +1074,13 @@
 			productReference = 9436497F1EC454680047E189 /* 26. Remove Duplicates from Sorted Array */;
 			productType = "com.apple.product-type.tool";
 		};
-		94369D361EC6096200028DBF /* 21. Merge Two Sorted Lists */ = {
+		944664301ECC592100F2CBBA /* 21. Merge Two Sorted Lists */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94369D3D1EC6096200028DBF /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */;
+			buildConfigurationList = 944664371ECC592100F2CBBA /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */;
 			buildPhases = (
-				94369D331EC6096200028DBF /* Sources */,
-				94369D341EC6096200028DBF /* Frameworks */,
-				94369D351EC6096200028DBF /* CopyFiles */,
+				9446642D1ECC592100F2CBBA /* Sources */,
+				9446642E1ECC592100F2CBBA /* Frameworks */,
+				9446642F1ECC592100F2CBBA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1030,7 +1088,24 @@
 			);
 			name = "21. Merge Two Sorted Lists";
 			productName = "21. Merge Two Sorted Lists";
-			productReference = 94369D371EC6096200028DBF /* 21. Merge Two Sorted Lists */;
+			productReference = 944664311ECC592100F2CBBA /* 21. Merge Two Sorted Lists */;
+			productType = "com.apple.product-type.tool";
+		};
+		9459FC511ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9459FC581ECBDF6900919DF5 /* Build configuration list for PBXNativeTarget "345. Reverse Vowels of a String" */;
+			buildPhases = (
+				9459FC4E1ECBDF6900919DF5 /* Sources */,
+				9459FC4F1ECBDF6900919DF5 /* Frameworks */,
+				9459FC501ECBDF6900919DF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "345. Reverse Vowels of a String";
+			productName = "345. Reverse Vowels of a String";
+			productReference = 9459FC521ECBDF6900919DF5 /* 345. Reverse Vowels of a String */;
 			productType = "com.apple.product-type.tool";
 		};
 		947812571EC4B1B300690484 /* 15. 3Sum */ = {
@@ -1150,6 +1225,23 @@
 			name = "459. Repeated Substring Pattern";
 			productName = "459. Repeated Substring Pattern";
 			productReference = 94B4D8B11EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+		94CFE3741ECAA1C60085DB72 /* 456. 132 Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CFE37B1ECAA1C60085DB72 /* Build configuration list for PBXNativeTarget "456. 132 Pattern" */;
+			buildPhases = (
+				94CFE3711ECAA1C60085DB72 /* Sources */,
+				94CFE3721ECAA1C60085DB72 /* Frameworks */,
+				94CFE3731ECAA1C60085DB72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "456. 132 Pattern";
+			productName = "456. 132 Pattern";
+			productReference = 94CFE3751ECAA1C60085DB72 /* 456. 132 Pattern */;
 			productType = "com.apple.product-type.tool";
 		};
 		94D7ACAA1EC196830082AA6E /* 20. Valid Parentheses */ = {
@@ -1458,9 +1550,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
-					94369D361EC6096200028DBF = {
+					944664301ECC592100F2CBBA = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 2J9L4D6D44;
+						ProvisioningStyle = Automatic;
+					};
+					9459FC511ECBDF6900919DF5 = {
+						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
 					947812571EC4B1B300690484 = {
@@ -1491,6 +1586,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					94B4D8B01EC5BE1D00E9DCD3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94CFE3741ECAA1C60085DB72 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -1602,7 +1701,9 @@
 				94B4D89A1EC5586200E9DCD3 /* 67. Add Binary */,
 				94B4D8A51EC59A2200E9DCD3 /* 45. Jump Game II */,
 				94B4D8B01EC5BE1D00E9DCD3 /* 459. Repeated Substring Pattern */,
-				94369D361EC6096200028DBF /* 21. Merge Two Sorted Lists */,
+				94CFE3741ECAA1C60085DB72 /* 456. 132 Pattern */,
+				9459FC511ECBDF6900919DF5 /* 345. Reverse Vowels of a String */,
+				944664301ECC592100F2CBBA /* 21. Merge Two Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -1656,11 +1757,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94369D331EC6096200028DBF /* Sources */ = {
+		9446642D1ECC592100F2CBBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94369D3A1EC6096200028DBF /* main.swift in Sources */,
+				944664341ECC592100F2CBBA /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9459FC4E1ECBDF6900919DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9459FC551ECBDF6900919DF5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1717,6 +1826,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				94B4D8B41EC5BE1E00E9DCD3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFE3711ECAA1C60085DB72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFE3781ECAA1C60085DB72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1947,19 +2064,33 @@
 			};
 			name = Release;
 		};
-		94369D3B1EC6096200028DBF /* Debug */ = {
+		944664351ECC592100F2CBBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 2J9L4D6D44;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		94369D3C1EC6096200028DBF /* Release */ = {
+		944664361ECC592100F2CBBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 2J9L4D6D44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9459FC561ECBDF6900919DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9459FC571ECBDF6900919DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2076,6 +2207,22 @@
 			name = Debug;
 		};
 		94B4D8B61EC5BE1E00E9DCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94CFE3791ECAA1C60085DB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94CFE37A1ECAA1C60085DB72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2493,13 +2640,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94369D3D1EC6096200028DBF /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */ = {
+		944664371ECC592100F2CBBA /* Build configuration list for PBXNativeTarget "21. Merge Two Sorted Lists" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94369D3B1EC6096200028DBF /* Debug */,
-				94369D3C1EC6096200028DBF /* Release */,
+				944664351ECC592100F2CBBA /* Debug */,
+				944664361ECC592100F2CBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		9459FC581ECBDF6900919DF5 /* Build configuration list for PBXNativeTarget "345. Reverse Vowels of a String" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9459FC561ECBDF6900919DF5 /* Debug */,
+				9459FC571ECBDF6900919DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9478125E1EC4B1B300690484 /* Build configuration list for PBXNativeTarget "15. 3Sum" */ = {
 			isa = XCConfigurationList;
@@ -2560,6 +2716,15 @@
 			buildConfigurations = (
 				94B4D8B51EC5BE1E00E9DCD3 /* Debug */,
 				94B4D8B61EC5BE1E00E9DCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CFE37B1ECAA1C60085DB72 /* Build configuration list for PBXNativeTarget "456. 132 Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CFE3791ECAA1C60085DB72 /* Debug */,
+				94CFE37A1ECAA1C60085DB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
