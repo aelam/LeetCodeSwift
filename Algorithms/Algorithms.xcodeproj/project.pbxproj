@@ -18,6 +18,9 @@
 		9478125B1EC4B1B300690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478125A1EC4B1B300690484 /* main.swift */; };
 		947812661EC4B94C00690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947812651EC4B94C00690484 /* main.swift */; };
 		94835DD41EC4A4810036198A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94835DD31EC4A4810036198A /* main.swift */; };
+		94AE2FBD1ED3CF4E002A3508 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE2FBC1ED3CF4E002A3508 /* main.swift */; };
+		94AE2FC81ED3D0E2002A3508 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE2FC71ED3D0E2002A3508 /* main.swift */; };
+		94AE2FD31ED412F9002A3508 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE2FD21ED412F9002A3508 /* main.swift */; };
 		94B4D8931EC54EB800E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D8921EC54EB800E9DCD3 /* main.swift */; };
 		94B4D89E1EC5586200E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D89D1EC5586200E9DCD3 /* main.swift */; };
 		94B4D8A91EC59A2200E9DCD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B4D8A81EC59A2200E9DCD3 /* main.swift */; };
@@ -133,6 +136,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		94835DCF1EC4A4810036198A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94AE2FB81ED3CF4E002A3508 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94AE2FC31ED3D0E2002A3508 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		94AE2FCE1ED412F9002A3508 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -355,6 +385,12 @@
 		947812651EC4B94C00690484 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94835DD11EC4A4810036198A /* 11. Container With Most Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. Container With Most Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94835DD31EC4A4810036198A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94AE2FBA1ED3CF4E002A3508 /* 450. Delete Node in a BST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "450. Delete Node in a BST"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AE2FBC1ED3CF4E002A3508 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94AE2FC51ED3D0E2002A3508 /* 451. Sort Characters By Frequency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "451. Sort Characters By Frequency"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AE2FC71ED3D0E2002A3508 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94AE2FD01ED412F9002A3508 /* 88. Merge Sorted Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "88. Merge Sorted Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94AE2FD21ED412F9002A3508 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94B4D8901EC54EB800E9DCD3 /* 167. Two Sum II - Input array is sorted */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "167. Two Sum II - Input array is sorted"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B4D8921EC54EB800E9DCD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94B4D89B1EC5586200E9DCD3 /* 67. Add Binary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "67. Add Binary"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -471,6 +507,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		94835DCE1EC4A4810036198A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FB71ED3CF4E002A3508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FC21ED3D0E2002A3508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FCD1ED412F9002A3508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -715,6 +772,30 @@
 			path = "11. Container With Most Water";
 			sourceTree = "<group>";
 		};
+		94AE2FBB1ED3CF4E002A3508 /* 450. Delete Node in a BST */ = {
+			isa = PBXGroup;
+			children = (
+				94AE2FBC1ED3CF4E002A3508 /* main.swift */,
+			);
+			path = "450. Delete Node in a BST";
+			sourceTree = "<group>";
+		};
+		94AE2FC61ED3D0E2002A3508 /* 451. Sort Characters By Frequency */ = {
+			isa = PBXGroup;
+			children = (
+				94AE2FC71ED3D0E2002A3508 /* main.swift */,
+			);
+			path = "451. Sort Characters By Frequency";
+			sourceTree = "<group>";
+		};
+		94AE2FD11ED412F9002A3508 /* 88. Merge Sorted Array */ = {
+			isa = PBXGroup;
+			children = (
+				94AE2FD21ED412F9002A3508 /* main.swift */,
+			);
+			path = "88. Merge Sorted Array";
+			sourceTree = "<group>";
+		};
 		94B4D8911EC54EB800E9DCD3 /* 167. Two Sum II - Input array is sorted */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,6 +870,9 @@
 				94D7ACD81EC197800082AA6E /* 463. Island Perimeter */,
 				94DD91701EC2A64B004351A5 /* 540. Single Element in a Sorted Array */,
 				94D7AD2A1EC1C7580082AA6E /* 567. Permutation in String */,
+				94AE2FBB1ED3CF4E002A3508 /* 450. Delete Node in a BST */,
+				94AE2FC61ED3D0E2002A3508 /* 451. Sort Characters By Frequency */,
+				94AE2FD11ED412F9002A3508 /* 88. Merge Sorted Array */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7ACF51EC1B27D0082AA6E /* Extra */,
 			);
@@ -829,6 +913,9 @@
 				94CFE3751ECAA1C60085DB72 /* 456. 132 Pattern */,
 				9459FC521ECBDF6900919DF5 /* 345. Reverse Vowels of a String */,
 				944664311ECC592100F2CBBA /* 21. Merge Two Sorted Lists */,
+				94AE2FBA1ED3CF4E002A3508 /* 450. Delete Node in a BST */,
+				94AE2FC51ED3D0E2002A3508 /* 451. Sort Characters By Frequency */,
+				94AE2FD01ED412F9002A3508 /* 88. Merge Sorted Array */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1157,6 +1244,57 @@
 			name = "11. Container With Most Water";
 			productName = "11. Container With Most Water";
 			productReference = 94835DD11EC4A4810036198A /* 11. Container With Most Water */;
+			productType = "com.apple.product-type.tool";
+		};
+		94AE2FB91ED3CF4E002A3508 /* 450. Delete Node in a BST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AE2FC01ED3CF4E002A3508 /* Build configuration list for PBXNativeTarget "450. Delete Node in a BST" */;
+			buildPhases = (
+				94AE2FB61ED3CF4E002A3508 /* Sources */,
+				94AE2FB71ED3CF4E002A3508 /* Frameworks */,
+				94AE2FB81ED3CF4E002A3508 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "450. Delete Node in a BST";
+			productName = "450. Delete Node in a BST";
+			productReference = 94AE2FBA1ED3CF4E002A3508 /* 450. Delete Node in a BST */;
+			productType = "com.apple.product-type.tool";
+		};
+		94AE2FC41ED3D0E2002A3508 /* 451. Sort Characters By Frequency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AE2FC91ED3D0E2002A3508 /* Build configuration list for PBXNativeTarget "451. Sort Characters By Frequency" */;
+			buildPhases = (
+				94AE2FC11ED3D0E2002A3508 /* Sources */,
+				94AE2FC21ED3D0E2002A3508 /* Frameworks */,
+				94AE2FC31ED3D0E2002A3508 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "451. Sort Characters By Frequency";
+			productName = "451. Sort Characters By Frequency";
+			productReference = 94AE2FC51ED3D0E2002A3508 /* 451. Sort Characters By Frequency */;
+			productType = "com.apple.product-type.tool";
+		};
+		94AE2FCF1ED412F9002A3508 /* 88. Merge Sorted Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94AE2FD61ED412F9002A3508 /* Build configuration list for PBXNativeTarget "88. Merge Sorted Array" */;
+			buildPhases = (
+				94AE2FCC1ED412F9002A3508 /* Sources */,
+				94AE2FCD1ED412F9002A3508 /* Frameworks */,
+				94AE2FCE1ED412F9002A3508 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "88. Merge Sorted Array";
+			productName = "88. Merge Sorted Array";
+			productReference = 94AE2FD01ED412F9002A3508 /* 88. Merge Sorted Array */;
 			productType = "com.apple.product-type.tool";
 		};
 		94B4D88F1EC54EB800E9DCD3 /* 167. Two Sum II - Input array is sorted */ = {
@@ -1573,6 +1711,18 @@
 						DevelopmentTeam = 2J9L4D6D44;
 						ProvisioningStyle = Automatic;
 					};
+					94AE2FB91ED3CF4E002A3508 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94AE2FC41ED3D0E2002A3508 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					94AE2FCF1ED412F9002A3508 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					94B4D88F1EC54EB800E9DCD3 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -1704,6 +1854,9 @@
 				94CFE3741ECAA1C60085DB72 /* 456. 132 Pattern */,
 				9459FC511ECBDF6900919DF5 /* 345. Reverse Vowels of a String */,
 				944664301ECC592100F2CBBA /* 21. Merge Two Sorted Lists */,
+				94AE2FB91ED3CF4E002A3508 /* 450. Delete Node in a BST */,
+				94AE2FC41ED3D0E2002A3508 /* 451. Sort Characters By Frequency */,
+				94AE2FCF1ED412F9002A3508 /* 88. Merge Sorted Array */,
 			);
 		};
 /* End PBXProject section */
@@ -1794,6 +1947,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				94835DD41EC4A4810036198A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FB61ED3CF4E002A3508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AE2FBD1ED3CF4E002A3508 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FC11ED3D0E2002A3508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AE2FC81ED3D0E2002A3508 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE2FCC1ED412F9002A3508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94AE2FD31ED412F9002A3508 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2145,6 +2322,54 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 2J9L4D6D44;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94AE2FBE1ED3CF4E002A3508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94AE2FBF1ED3CF4E002A3508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94AE2FCA1ED3D0E2002A3508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94AE2FCB1ED3D0E2002A3508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94AE2FD41ED412F9002A3508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94AE2FD51ED412F9002A3508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2647,6 +2872,7 @@
 				944664361ECC592100F2CBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9459FC581ECBDF6900919DF5 /* Build configuration list for PBXNativeTarget "345. Reverse Vowels of a String" */ = {
 			isa = XCConfigurationList;
@@ -2683,6 +2909,32 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		94AE2FC01ED3CF4E002A3508 /* Build configuration list for PBXNativeTarget "450. Delete Node in a BST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AE2FBE1ED3CF4E002A3508 /* Debug */,
+				94AE2FBF1ED3CF4E002A3508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AE2FC91ED3D0E2002A3508 /* Build configuration list for PBXNativeTarget "451. Sort Characters By Frequency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AE2FCA1ED3D0E2002A3508 /* Debug */,
+				94AE2FCB1ED3D0E2002A3508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94AE2FD61ED412F9002A3508 /* Build configuration list for PBXNativeTarget "88. Merge Sorted Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94AE2FD41ED412F9002A3508 /* Debug */,
+				94AE2FD51ED412F9002A3508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		94B4D8941EC54EB800E9DCD3 /* Build configuration list for PBXNativeTarget "167. Two Sum II - Input array is sorted" */ = {
 			isa = XCConfigurationList;

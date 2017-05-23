@@ -33,16 +33,18 @@ class Solution {
         if s.characters.count <= 1 {
             return false
         }
-        for patternLength in 1...s.characters.count/2 {
+        let characters = Array(s.characters)
+        
+        for patternLength in (1...characters.count/2) {
             var mismatched = false
-            let pattern = s[s.startIndex..<s.index(s.startIndex, offsetBy: patternLength)]
+            let pattern = characters[0..<patternLength]
             
-            if patternLength > 1 && s.characters.count%2 == 1 {
-                return false
+            if characters.count%pattern.count != 0 {
+                continue
             }
             
-            for i in stride(from: patternLength, to: s.characters.count, by: patternLength) {
-                let matchString = s[s.index(s.startIndex, offsetBy: i)..<s.index(s.startIndex, offsetBy: i + patternLength)]
+            for i in stride(from: patternLength, to: characters.count, by: patternLength) {
+                let matchString = characters[i..<i+patternLength]
                 if matchString != pattern {
                     mismatched = true
                     break
@@ -53,11 +55,12 @@ class Solution {
                 return true
             }
         }
-        
         return false
     }
 }
 
-let s = "abab"
+let s = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"//"abab"
 let solution = Solution()
 print(solution.repeatedSubstringPattern(s))
+
+
