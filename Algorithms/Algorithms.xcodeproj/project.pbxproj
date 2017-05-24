@@ -15,6 +15,8 @@
 		943649821EC454680047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649811EC454680047E189 /* main.swift */; };
 		944664341ECC592100F2CBBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944664331ECC592100F2CBBA /* main.swift */; };
 		9454C9431ED5351900A85B91 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454C9421ED5351900A85B91 /* main.swift */; };
+		9454C94E1ED555E300A85B91 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454C94D1ED555E300A85B91 /* main.swift */; };
+		9454C9591ED55C5000A85B91 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454C9581ED55C5000A85B91 /* main.swift */; };
 		9459FC551ECBDF6900919DF5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9459FC541ECBDF6900919DF5 /* main.swift */; };
 		9478125B1EC4B1B300690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9478125A1EC4B1B300690484 /* main.swift */; };
 		947812661EC4B94C00690484 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947812651EC4B94C00690484 /* main.swift */; };
@@ -112,6 +114,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		9454C93E1ED5351900A85B91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9454C9491ED555E200A85B91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9454C9541ED55C5000A85B91 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -409,6 +429,10 @@
 		944664331ECC592100F2CBBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9454C9401ED5351900A85B91 /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9454C9421ED5351900A85B91 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9454C94B1ED555E300A85B91 /* 27. Remove Element */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "27. Remove Element"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9454C94D1ED555E300A85B91 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9454C9561ED55C5000A85B91 /* 35. Search Insert Position */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "35. Search Insert Position"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9454C9581ED55C5000A85B91 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9459FC521ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "345. Reverse Vowels of a String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9459FC541ECBDF6900919DF5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		947812581EC4B1B300690484 /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -522,6 +546,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9454C93D1ED5351900A85B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9454C9481ED555E200A85B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9454C9531ED55C5000A85B91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -805,6 +843,22 @@
 			path = "6. ZigZag Conversion";
 			sourceTree = "<group>";
 		};
+		9454C94C1ED555E300A85B91 /* 27. Remove Element */ = {
+			isa = PBXGroup;
+			children = (
+				9454C94D1ED555E300A85B91 /* main.swift */,
+			);
+			path = "27. Remove Element";
+			sourceTree = "<group>";
+		};
+		9454C9571ED55C5000A85B91 /* 35. Search Insert Position */ = {
+			isa = PBXGroup;
+			children = (
+				9454C9581ED55C5000A85B91 /* main.swift */,
+			);
+			path = "35. Search Insert Position";
+			sourceTree = "<group>";
+		};
 		9459FC531ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {
 			isa = PBXGroup;
 			children = (
@@ -957,6 +1011,8 @@
 				94AE2FDC1ED41E53002A3508 /* 23. Merge k Sorted Lists */,
 				94AE2FE71ED4272C002A3508 /* 223. Rectangle Area */,
 				9454C9411ED5351900A85B91 /* 6. ZigZag Conversion */,
+				9454C94C1ED555E300A85B91 /* 27. Remove Element */,
+				9454C9571ED55C5000A85B91 /* 35. Search Insert Position */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7ACF51EC1B27D0082AA6E /* Extra */,
 			);
@@ -1003,6 +1059,8 @@
 				94AE2FDB1ED41E53002A3508 /* 23. Merge k Sorted Lists */,
 				94AE2FE61ED4272C002A3508 /* 223. Rectangle Area */,
 				9454C9401ED5351900A85B91 /* 6. ZigZag Conversion */,
+				9454C94B1ED555E300A85B91 /* 27. Remove Element */,
+				9454C9561ED55C5000A85B91 /* 35. Search Insert Position */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1280,6 +1338,40 @@
 			name = "6. ZigZag Conversion";
 			productName = "6. ZigZag Conversion";
 			productReference = 9454C9401ED5351900A85B91 /* 6. ZigZag Conversion */;
+			productType = "com.apple.product-type.tool";
+		};
+		9454C94A1ED555E200A85B91 /* 27. Remove Element */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9454C94F1ED555E300A85B91 /* Build configuration list for PBXNativeTarget "27. Remove Element" */;
+			buildPhases = (
+				9454C9471ED555E200A85B91 /* Sources */,
+				9454C9481ED555E200A85B91 /* Frameworks */,
+				9454C9491ED555E200A85B91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "27. Remove Element";
+			productName = "27. Remove Element";
+			productReference = 9454C94B1ED555E300A85B91 /* 27. Remove Element */;
+			productType = "com.apple.product-type.tool";
+		};
+		9454C9551ED55C5000A85B91 /* 35. Search Insert Position */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9454C95A1ED55C5000A85B91 /* Build configuration list for PBXNativeTarget "35. Search Insert Position" */;
+			buildPhases = (
+				9454C9521ED55C5000A85B91 /* Sources */,
+				9454C9531ED55C5000A85B91 /* Frameworks */,
+				9454C9541ED55C5000A85B91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "35. Search Insert Position";
+			productName = "35. Search Insert Position";
+			productReference = 9454C9561ED55C5000A85B91 /* 35. Search Insert Position */;
 			productType = "com.apple.product-type.tool";
 		};
 		9459FC511ECBDF6900919DF5 /* 345. Reverse Vowels of a String */ = {
@@ -1834,6 +1926,14 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					9454C94A1ED555E200A85B91 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					9454C9551ED55C5000A85B91 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					9459FC511ECBDF6900919DF5 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -2010,6 +2110,8 @@
 				94AE2FDA1ED41E53002A3508 /* 23. Merge k Sorted Lists */,
 				94AE2FE51ED4272C002A3508 /* 223. Rectangle Area */,
 				9454C93F1ED5351900A85B91 /* 6. ZigZag Conversion */,
+				9454C94A1ED555E200A85B91 /* 27. Remove Element */,
+				9454C9551ED55C5000A85B91 /* 35. Search Insert Position */,
 			);
 		};
 /* End PBXProject section */
@@ -2076,6 +2178,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9454C9431ED5351900A85B91 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9454C9471ED555E200A85B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9454C94E1ED555E300A85B91 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9454C9521ED55C5000A85B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9454C9591ED55C5000A85B91 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2443,6 +2561,38 @@
 			name = Debug;
 		};
 		9454C9451ED5351900A85B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9454C9501ED555E300A85B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9454C9511ED555E300A85B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9454C95B1ED55C5000A85B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9454C95C1ED55C5000A85B91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3104,6 +3254,22 @@
 			buildConfigurations = (
 				9454C9441ED5351900A85B91 /* Debug */,
 				9454C9451ED5351900A85B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9454C94F1ED555E300A85B91 /* Build configuration list for PBXNativeTarget "27. Remove Element" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9454C9501ED555E300A85B91 /* Debug */,
+				9454C9511ED555E300A85B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9454C95A1ED55C5000A85B91 /* Build configuration list for PBXNativeTarget "35. Search Insert Position" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9454C95B1ED55C5000A85B91 /* Debug */,
+				9454C95C1ED55C5000A85B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
