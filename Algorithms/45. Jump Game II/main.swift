@@ -24,6 +24,46 @@
  
  */
 
+class Solution2 {
+    func jump(_ nums: [Int]) -> Int {
+        let count = nums.count
+        
+        if count <= 1 {
+            return 0
+        }
+        
+        var steps = [Int](repeating: Int.min, count: count)
+        var stepCount = 0
+        steps[stepCount] = nums[0]
+        if steps[stepCount] == 0 {
+            return 0
+        }
+        
+        if steps[stepCount] >= count - 1 {
+            return stepCount + 1
+        }
+        for i in 1..<count {
+            if steps[stepCount] >= i {
+                steps[stepCount+1] = max(steps[stepCount+1], steps[stepCount] + nums[i])
+
+                if steps[stepCount] >= count - 1 {
+                    return stepCount
+                }
+            } else {
+                steps[stepCount+1] = max(steps[stepCount+1], steps[stepCount] + nums[i])
+                if steps[stepCount+1] >= count - 1 {
+                    return stepCount+2
+                }
+                stepCount += 1
+            }
+        }
+        
+        return 1
+
+    }
+    
+}
+
 
 class Solution {
     func jump(_ nums: [Int]) -> Int {
@@ -65,13 +105,14 @@ class Solution {
 
 
 
-let solution = Solution()
+let solution = Solution2()
 
 //          0           5          10         15         20         25         30         35   38
-//var data = [5,6,4,4,6,  9,4,4,7,4, 4,8,2,6,8, 1,5,9,6,5, 2,7,9,7,9, 6,9,4,1,6, 8,8,4,4,2, 0,3,8,5]
-var data = [5,6,4,4,6,  9,4,4,7,4, 4,8,2,6,8, 1,5,9,6,5, 2,7,9,7,9, 6,9,4,1,6, 8,8,4,4,2,3,8,5]
+var data = [5,6,4,4,6,  9,4,4,7,4, 4,8,2,6,8, 1,5,9,6,5, 2,7,9,7,9, 6,9,4,1,6, 8,8,4,4,2, 0,3,8,5]
+//var data = [5,6,4,4,6,  9,4,4,7,4, 4,8,2,6,8, 1,5,9,6,5, 2,7,9,7,9, 6,9,4,1,6, 8,8,4,4,2,3,8,5]
 //var data = [5,6,4,4,6,  9,4,4,7,4, 4,8,2,6,8]
-print(solution.jump(data))
+print(solution.jump([1,2]) == 1)
+print(solution.jump([1,2,3]) == 2)
 //print(data.count)
 //print(solution.sol(&data, 38) == 0)
 //print(solution.sol(&data, 36) == 1)
