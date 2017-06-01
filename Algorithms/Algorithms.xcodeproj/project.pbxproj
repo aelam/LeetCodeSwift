@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940A2A801EDFB8830046B113 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A2A7F1EDFB8830046B113 /* main.swift */; };
+		940A2A8B1EDFE34C0046B113 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A2A8A1EDFE34C0046B113 /* main.swift */; };
+		940A2A961EDFEEA90046B113 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940A2A951EDFEEA90046B113 /* main.swift */; };
 		942373091ED7CDC200F6CB40 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942373081ED7CDC200F6CB40 /* main.swift */; };
 		9436493F1EC3F4B90047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9436493E1EC3F4B90047E189 /* main.swift */; };
 		9436494A1EC415030047E189 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943649491EC415030047E189 /* main.swift */; };
@@ -53,9 +56,37 @@
 		94DD91951EC317F0004351A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD91941EC317F0004351A5 /* main.swift */; };
 		94DD919D1EC31C38004351A5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD919C1EC31C38004351A5 /* main.swift */; };
 		94E224E71ED966AD0091EE58 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E224E61ED966AD0091EE58 /* main.swift */; };
+		94E4FBE21EDE550C00424C18 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4FBE11EDE550C00424C18 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		940A2A7B1EDFB8830046B113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		940A2A861EDFE34C0046B113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		940A2A911EDFEEA90046B113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		942373041ED7CDC200F6CB40 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,9 +501,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		94E4FBDD1EDE550C00424C18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		940A2A7D1EDFB8830046B113 /* 58. Length of Last Word */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "58. Length of Last Word"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2A7F1EDFB8830046B113 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		940A2A881EDFE34C0046B113 /* 24. Swap Nodes in Pairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24. Swap Nodes in Pairs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2A8A1EDFE34C0046B113 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		940A2A931EDFEEA90046B113 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940A2A951EDFEEA90046B113 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		942373061ED7CDC200F6CB40 /* 100. Same Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "100. Same Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942373081ED7CDC200F6CB40 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9436493C1EC3F4B90047E189 /* 39. Combination Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "39. Combination Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -565,9 +611,32 @@
 		94DD919C1EC31C38004351A5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94E224E41ED966AD0091EE58 /* 60. Permutation Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "60. Permutation Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E224E61ED966AD0091EE58 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94E4FBDF1EDE550C00424C18 /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E4FBE11EDE550C00424C18 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		940A2A7A1EDFB8830046B113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2A851EDFE34C0046B113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2A901EDFEEA90046B113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		942373031ED7CDC200F6CB40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -890,9 +959,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94E4FBDC1EDE550C00424C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940A2A7E1EDFB8830046B113 /* 58. Length of Last Word */ = {
+			isa = PBXGroup;
+			children = (
+				940A2A7F1EDFB8830046B113 /* main.swift */,
+			);
+			path = "58. Length of Last Word";
+			sourceTree = "<group>";
+		};
+		940A2A891EDFE34C0046B113 /* 24. Swap Nodes in Pairs */ = {
+			isa = PBXGroup;
+			children = (
+				940A2A8A1EDFE34C0046B113 /* main.swift */,
+			);
+			path = "24. Swap Nodes in Pairs";
+			sourceTree = "<group>";
+		};
+		940A2A941EDFEEA90046B113 /* 70. Climbing Stairs */ = {
+			isa = PBXGroup;
+			children = (
+				940A2A951EDFEEA90046B113 /* main.swift */,
+			);
+			path = "70. Climbing Stairs";
+			sourceTree = "<group>";
+		};
 		942373071ED7CDC200F6CB40 /* 100. Same Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -1173,6 +1273,10 @@
 				942373071ED7CDC200F6CB40 /* 100. Same Tree */,
 				9451BC211ED7D0D10067ABB2 /* 199. Binary Tree Right Side View */,
 				94E224E51ED966AD0091EE58 /* 60. Permutation Sequence */,
+				94E4FBE01EDE550C00424C18 /* 19. Remove Nth Node From End of List */,
+				940A2A7E1EDFB8830046B113 /* 58. Length of Last Word */,
+				940A2A891EDFE34C0046B113 /* 24. Swap Nodes in Pairs */,
+				940A2A941EDFEEA90046B113 /* 70. Climbing Stairs */,
 				94D7AC9E1EC196690082AA6E /* Products */,
 				94D7ACF51EC1B27D0082AA6E /* Extra */,
 			);
@@ -1227,6 +1331,10 @@
 				942373061ED7CDC200F6CB40 /* 100. Same Tree */,
 				9451BC201ED7D0D10067ABB2 /* 199. Binary Tree Right Side View */,
 				94E224E41ED966AD0091EE58 /* 60. Permutation Sequence */,
+				94E4FBDF1EDE550C00424C18 /* 19. Remove Nth Node From End of List */,
+				940A2A7D1EDFB8830046B113 /* 58. Length of Last Word */,
+				940A2A881EDFE34C0046B113 /* 24. Swap Nodes in Pairs */,
+				940A2A931EDFEEA90046B113 /* 70. Climbing Stairs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1376,9 +1484,68 @@
 			path = "60. Permutation Sequence";
 			sourceTree = "<group>";
 		};
+		94E4FBE01EDE550C00424C18 /* 19. Remove Nth Node From End of List */ = {
+			isa = PBXGroup;
+			children = (
+				94E4FBE11EDE550C00424C18 /* main.swift */,
+			);
+			path = "19. Remove Nth Node From End of List";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		940A2A7C1EDFB8830046B113 /* 58. Length of Last Word */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2A831EDFB8830046B113 /* Build configuration list for PBXNativeTarget "58. Length of Last Word" */;
+			buildPhases = (
+				940A2A791EDFB8830046B113 /* Sources */,
+				940A2A7A1EDFB8830046B113 /* Frameworks */,
+				940A2A7B1EDFB8830046B113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "58. Length of Last Word";
+			productName = "58. Length of Last Word";
+			productReference = 940A2A7D1EDFB8830046B113 /* 58. Length of Last Word */;
+			productType = "com.apple.product-type.tool";
+		};
+		940A2A871EDFE34C0046B113 /* 24. Swap Nodes in Pairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2A8E1EDFE34C0046B113 /* Build configuration list for PBXNativeTarget "24. Swap Nodes in Pairs" */;
+			buildPhases = (
+				940A2A841EDFE34C0046B113 /* Sources */,
+				940A2A851EDFE34C0046B113 /* Frameworks */,
+				940A2A861EDFE34C0046B113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24. Swap Nodes in Pairs";
+			productName = "24. Swap Nodes in Pairs";
+			productReference = 940A2A881EDFE34C0046B113 /* 24. Swap Nodes in Pairs */;
+			productType = "com.apple.product-type.tool";
+		};
+		940A2A921EDFEEA90046B113 /* 70. Climbing Stairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940A2A971EDFEEAA0046B113 /* Build configuration list for PBXNativeTarget "70. Climbing Stairs" */;
+			buildPhases = (
+				940A2A8F1EDFEEA90046B113 /* Sources */,
+				940A2A901EDFEEA90046B113 /* Frameworks */,
+				940A2A911EDFEEA90046B113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "70. Climbing Stairs";
+			productName = "70. Climbing Stairs";
+			productReference = 940A2A931EDFEEA90046B113 /* 70. Climbing Stairs */;
+			productType = "com.apple.product-type.tool";
+		};
 		942373051ED7CDC200F6CB40 /* 100. Same Tree */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9423730C1ED7CDC200F6CB40 /* Build configuration list for PBXNativeTarget "100. Same Tree" */;
@@ -2161,6 +2328,23 @@
 			productReference = 94E224E41ED966AD0091EE58 /* 60. Permutation Sequence */;
 			productType = "com.apple.product-type.tool";
 		};
+		94E4FBDE1EDE550C00424C18 /* 19. Remove Nth Node From End of List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E4FBE51EDE550C00424C18 /* Build configuration list for PBXNativeTarget "19. Remove Nth Node From End of List" */;
+			buildPhases = (
+				94E4FBDB1EDE550C00424C18 /* Sources */,
+				94E4FBDC1EDE550C00424C18 /* Frameworks */,
+				94E4FBDD1EDE550C00424C18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19. Remove Nth Node From End of List";
+			productName = "19. Remove Nth Node From End of List";
+			productReference = 94E4FBDF1EDE550C00424C18 /* 19. Remove Nth Node From End of List */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2171,6 +2355,18 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ryan;
 				TargetAttributes = {
+					940A2A7C1EDFB8830046B113 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					940A2A871EDFE34C0046B113 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					940A2A921EDFEEA90046B113 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					942373051ED7CDC200F6CB40 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -2359,6 +2555,10 @@
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
+					94E4FBDE1EDE550C00424C18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 94D7AC981EC196690082AA6E /* Build configuration list for PBXProject "Algorithms" */;
@@ -2419,11 +2619,39 @@
 				942373051ED7CDC200F6CB40 /* 100. Same Tree */,
 				9451BC1F1ED7D0D10067ABB2 /* 199. Binary Tree Right Side View */,
 				94E224E31ED966AD0091EE58 /* 60. Permutation Sequence */,
+				94E4FBDE1EDE550C00424C18 /* 19. Remove Nth Node From End of List */,
+				940A2A7C1EDFB8830046B113 /* 58. Length of Last Word */,
+				940A2A871EDFE34C0046B113 /* 24. Swap Nodes in Pairs */,
+				940A2A921EDFEEA90046B113 /* 70. Climbing Stairs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		940A2A791EDFB8830046B113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2A801EDFB8830046B113 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2A841EDFE34C0046B113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2A8B1EDFE34C0046B113 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A2A8F1EDFEEA90046B113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940A2A961EDFEEA90046B113 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		942373021ED7CDC200F6CB40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2792,9 +3020,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94E4FBDB1EDE550C00424C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E4FBE21EDE550C00424C18 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		940A2A811EDFB8830046B113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		940A2A821EDFB8830046B113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		940A2A8C1EDFE34C0046B113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		940A2A8D1EDFE34C0046B113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		940A2A981EDFEEAA0046B113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		940A2A991EDFEEAA0046B113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		9423730A1ED7CDC200F6CB40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3634,9 +3918,50 @@
 			};
 			name = Release;
 		};
+		94E4FBE31EDE550C00424C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94E4FBE41EDE550C00424C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		940A2A831EDFB8830046B113 /* Build configuration list for PBXNativeTarget "58. Length of Last Word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2A811EDFB8830046B113 /* Debug */,
+				940A2A821EDFB8830046B113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940A2A8E1EDFE34C0046B113 /* Build configuration list for PBXNativeTarget "24. Swap Nodes in Pairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2A8C1EDFE34C0046B113 /* Debug */,
+				940A2A8D1EDFE34C0046B113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		940A2A971EDFEEAA0046B113 /* Build configuration list for PBXNativeTarget "70. Climbing Stairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940A2A981EDFEEAA0046B113 /* Debug */,
+				940A2A991EDFEEAA0046B113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9423730C1ED7CDC200F6CB40 /* Build configuration list for PBXNativeTarget "100. Same Tree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4058,6 +4383,16 @@
 				94E224E91ED966AD0091EE58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E4FBE51EDE550C00424C18 /* Build configuration list for PBXNativeTarget "19. Remove Nth Node From End of List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E4FBE31EDE550C00424C18 /* Debug */,
+				94E4FBE41EDE550C00424C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
