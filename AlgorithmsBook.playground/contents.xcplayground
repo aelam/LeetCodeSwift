@@ -7,10 +7,11 @@
         <page name='33. Search in Rotated Sorted Array '/>
         <page name='81. Search in Rotated Sorted Array II'/>
         <page name='82. Remove Duplicates from Sorted List II '/>
-        <page name='287. 寻找重复数'/>
         <page name='322. Coin Change'/>
         <page name='503. Next Greater Element II'/>
         <page name='542. 01 Matrix '/>
         <page name='54. Spiral Matrix'/>
+        <page name='91. Decode Ways '/>
+        <page name='45. Jump Game II '/>
     </pages>
 </playground>
