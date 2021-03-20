@@ -68,10 +68,20 @@ class Solution {
     func numDecodings(_ s: String) -> Int {
         let n = s.count
         let characters = Array(s)
-        var dp: [Int] = [Int].init(repeating: 0, count: n + 1)
+        if characters[0] == Character("0") {
+            return 0
+        }
+        
+        if characters.count == 1 {
+            return 1
+        }
+        
+        var dp: [Int] = [Int](repeating: 0, count: n + 1)
         dp[0] = 1
         dp[1] = 1
-
+        
+        // 11106
+        // 10106
         for i in 2...s.count {
             if characters[i-1] != Character("0") {
                 dp[i] = dp[i-1]
@@ -86,35 +96,12 @@ class Solution {
         return dp[n]
         
     }
-    
-    
-    func numDecodings(_ characters: [Character], start: Int) -> Int {
-        
-        print("start:", start)
-        let left = characters.count - 1 - start
-        
-        if left == 0 {
-            return 0
-        }
-        else if left == 1 {
-            return 1
-        }
-        
-        var value = 0
-        if left > 1 {
-            let vv = Int(String(characters[start...start+1]))!
-            if vv <= 26 && vv >= 1 {
-                value += (1 + numDecodings(characters, start: start + 2))
-            }
-        }
-        
-        value += numDecodings(characters, start: start + 1)
-
-        return value
-    }
-
 }
+    
+    
 
 let s = Solution()
-s.numDecodings("11106")
+//s.numDecodings("11106")
+//s.numDecodings("0")
+s.numDecodings("1")
 //: [Next](@next)

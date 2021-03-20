@@ -36,12 +36,15 @@ Constraints:
 
 class Solution {
     func jump(_ nums: [Int]) -> Int {
-        var dp = [Int].init(repeating: Int.max, count: nums.count)
+        var dp = [Int](repeating: Int.max, count: nums.count)
         
         dp[0] = 0
-        for i in 0..<nums.count {
-            if nums[i] > 1 {
-                for j in (i+1)..<(i+nums[i]) {
+        for i in 0..<(nums.count - 1) {
+            if nums[i] >= 1 {
+                for j in (i+1)...(i+nums[i]) {
+                    if j >= nums.count {
+                        continue
+                    }
                     dp[j] = min(dp[j],(dp[i] + 1))
                 }
             }
@@ -53,8 +56,6 @@ class Solution {
 
 let s = Solution()
 let nums = [2,3,1,1,4]
-        // [0,1,1,
-        // [
 
 
 print(s.jump(nums))
