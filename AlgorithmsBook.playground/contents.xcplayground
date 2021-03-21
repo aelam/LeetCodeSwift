@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true'>
+<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true'>
     <pages>
         <page name='Table_of_Contents'/>
         <page name='1. Two Sum'/>
@@ -11,7 +11,6 @@
         <page name='81. Search in Rotated Sorted Array II'/>
         <page name='82. Remove Duplicates from Sorted List II '/>
         <page name='91. Decode Ways '/>
-        <page name='92. Reverse Linked List II '/>
         <page name='150. Evaluate Reverse Polish Notation'/>
         <page name='206. Reverse Linked List '/>
         <page name='316. Remove Duplicate Letters'/>
@@ -19,5 +18,11 @@
         <page name='392. Is Subsequence '/>
         <page name='503. Next Greater Element II'/>
         <page name='542. 01 Matrix '/>
+        <page name='547. Number of Provinces'/>
+        <page name='==== DOING ======'/>
+        <page name='92. Reverse Linked List II '/>
+        <page name='68. Text Justification'/>
+        <page name='1052. Grumpy Bookstore Owner'/>
+        <page name='73. Set Matrix Zeroes '/>
     </pages>
 </playground>
