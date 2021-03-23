@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='rendered' buildActiveScheme='true'>
+<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true'>
     <pages>
         <page name='Table_of_Contents'/>
         <page name='1. Two Sum'/>
@@ -8,6 +8,7 @@
         <page name='45. Jump Game II '/>
         <page name='54. Spiral Matrix'/>
         <page name='62. Unique Paths '/>
+        <page name='73. Set Matrix Zeroes '/>
         <page name='81. Search in Rotated Sorted Array II'/>
         <page name='82. Remove Duplicates from Sorted List II '/>
         <page name='91. Decode Ways '/>
@@ -23,6 +24,6 @@
         <page name='92. Reverse Linked List II '/>
         <page name='68. Text Justification'/>
         <page name='1052. Grumpy Bookstore Owner'/>
-        <page name='73. Set Matrix Zeroes '/>
+        <page name='542. 01 Matrix'/>
     </pages>
 </playground>
