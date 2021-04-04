@@ -18,12 +18,14 @@
         <page name='322. Coin Change'/>
         <page name='392. Is Subsequence '/>
         <page name='503. Next Greater Element II'/>
-        <page name='542. 01 Matrix '/>
+        <page name='542. 01 Matrix'/>
         <page name='547. Number of Provinces'/>
         <page name='==== DOING ======'/>
         <page name='92. Reverse Linked List II '/>
         <page name='68. Text Justification'/>
         <page name='1052. Grumpy Bookstore Owner'/>
-        <page name='542. 01 Matrix'/>
+        <page name='3. Longest Substring Without Repeating Characters '/>
+        <page name='74. Search a 2D Matrix '/>
+        <page name='1143. Longest Common Subsequence '/>
     </pages>
 </playground>
