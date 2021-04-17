@@ -26,6 +26,7 @@
         <page name='1052. Grumpy Bookstore Owner'/>
         <page name='3. Longest Substring Without Repeating Characters '/>
         <page name='74. Search a 2D Matrix '/>
-        <page name='1143. Longest Common Subsequence '/>
+        <page name='1143. Longest Common Subsequence'/>
+        <page name='56. Merge Intervals'/>
     </pages>
 </playground>
