@@ -7,6 +7,7 @@
 - [62. Unique Paths](https://leetcode-cn.com/problems/unique-paths)
 - [81. Search in Rotated Sorted Array II](81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
 - [82. Remove Duplicates from Sorted List II ](82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
+- [83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [91. Decode Ways](https://leetcode-cn.com/problems/decode-ways/)
 - [92. Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 - [150. Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)

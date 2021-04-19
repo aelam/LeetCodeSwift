@@ -34,7 +34,6 @@ Follow up: Could you do it in one pass?
 
 
 ///
-/// TODO: unfinished
 ///
 public class ListNode {
     public var val: Int
@@ -51,6 +50,21 @@ public class ListNode {
             print(p?.val ?? 0)
             
             p = p?.next
+        }
+    }
+    
+    
+    convenience init(_ array:[Int]) {
+        if array.count == 0 {
+            fatalError()
+        }
+        
+        self.init(array[0])
+        var p: ListNode = self
+        for i in 1..<array.count {
+            let c = ListNode.init(array[i])
+            p.next = c
+            p = c
         }
     }
 }
@@ -126,24 +140,9 @@ class Solution {
 }
 
 
-func generateListNodes(_ array:[Int]) -> ListNode? {
-    if array.count == 0 {
-        return nil
-    }
-    
-    let head = ListNode.init(array[0])
-    var p: ListNode = head
-    for i in 1..<array.count {
-        let c = ListNode.init(array[i])
-        p.next = c
-        p = c
-    }
-    
-    return head
-}
 
-let l1 = generateListNodes([1, 2, 3, 4, 5])
-l1?.printList()
+let l1 = ListNode([1, 2, 3, 4, 5])
+l1.printList()
 
 print("==========")
 let s = Solution()
